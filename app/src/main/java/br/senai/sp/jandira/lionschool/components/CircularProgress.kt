@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
 
 @Composable
-fun CircularProgressBar(progress: Float, strokeWidth: Dp = 4.dp) {
+fun CircularProgressBar(progress: Float, strokeWidth: Dp = 4.dp, color: Color) {
     val grayColor = Color.LightGray
 
     Box(
@@ -36,7 +36,7 @@ fun CircularProgressBar(progress: Float, strokeWidth: Dp = 4.dp) {
             modifier = Modifier
                 .size(64.dp)
                 .padding(16.dp),
-            color = Color.Blue, // Customize the color here
+            color = color, // Customize the color here
             strokeWidth = strokeWidth // Customize the thickness here
         )
 
