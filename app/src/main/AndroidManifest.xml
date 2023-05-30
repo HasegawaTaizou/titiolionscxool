@@ -18,7 +18,7 @@
             android:theme="@style/Theme.LionSchool" >
         </activity>
         <activity
-            android:name=".gui.ContactUsActivity"
+            android:name="br.senai.sp.jandira.lion_shool.gui.SelectCourseActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.LionSchool" >
